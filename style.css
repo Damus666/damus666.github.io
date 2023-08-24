@@ -44,28 +44,30 @@ body {
     display: flex;
     align-items: center;
 }
-
+     
 .inner-content {
     width: 60%;
     margin: auto;
     justify-self: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
-
+  
 .clean-link {
     text-decoration: none;
     color: white;
 }
-
+ 
 .clean-link:hover {
     text-decoration: underline;
     color: white;
-}
+} 
 
 .plum-link {
     text-decoration: none;
-    color: plum;
+    color: plum; 
 }
 
 .plum-link:hover {
