@@ -1,15 +1,17 @@
+console.log("i managed to run!")
+
 const headContent = /*html*/`
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Damus666</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://github.com/Damus666/damus666.github.io/blob/main/style.css"/>`
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Damus666/damus666.github.io/main/style.css"/>`
 
 const headerContent = /*html*/`
 <header class="main-header fs-2">
     <div class="align-h" style="width:80%;">
-        <img class="main-pfp" src="https://github.com/Damus666/damus666.github.io/blob/main/assets/mainpfp.jpg" width="17%", height="17%">
+        <img class="main-pfp" src="https://raw.githubusercontent.com/Damus666/damus666.github.io/main/assets/mainpfp.jpg" width="17%", height="17%">
         <h1><a class="clean-link" href="https://linktr.ee/damus666"  target="_blank" id="#title">Damus666</a></h1>  
     </div>
 </header>
@@ -33,9 +35,13 @@ const footerContent = /*html*/`
 </div>
 `
 
+console.log("i managed to run the html consts!")
+
 document.getElementById("#head-cp").innerHTML = headContent
 document.getElementById("#header-cp").innerHTML = headerContent
 document.getElementById("#footer-cp").innerHTML = footerContent
+
+console.log("i managed to run the get element by id!")
 
 const url = document.URL
 titleElement = document.getElementById("#title")
@@ -43,11 +49,15 @@ const baseDocTitle = "Damus666"
 const baseTitle = "Damus666"
 const pageNames = ["Games","Projects","About"]
 
+console.log("i managed to run after the consts!")
+
 pageNames.forEach((page)=>{
     if (url.includes(page.toLowerCase())) {
         document.title = baseDocTitle+` - ${page}`
         titleElement.innerHTML = baseTitle + ` - ${page}`
     }
 })
+
+console.log("i managed to run all the code!")
 
 
