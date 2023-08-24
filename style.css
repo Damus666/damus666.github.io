@@ -1,11 +1,54 @@
 :root {
-    --main-gradiend: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(103,9,121,1) 35%, rgba(197,0,255,1) 100%);
+    --main-gradiend: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(21,0,36,1) 100%);
+    --content-gradient: linear-gradient(90deg, rgba(11,0,20,1) 0%, rgba(42,3,60,1) 50%, rgba(11,0,20,1) 100%);  
+    --fs-1: calc(1.375rem + 1.5vw);
+    --fs-2: calc(1.275rem + 1.25vw);
+    --fs-3: calc(1.175rem + 1.125vw);
+    --fs-4: calc(1rem + 1.05vw);
+    --fs-5: calc(0.8rem + 1.0vw);
+    --fs-6: calc(0.6rem + 0.9vw);
 }
 
 body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: rgb(30,30,30);
     color: white;
+}
+
+.p {
+    font-size: var(--fs-6) !important;
+}
+
+.h {
+    font-size: var(--fs-5) !important;
+    color: plum;
+}
+
+.h-small {
+    font-size: calc(var(--fs-5) * 0.9);
+    color: plum;
+}
+
+.plum {
+    color: plum !important;
+}
+
+.content {
+    background: var(--content-gradient);
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.inner-content {
+    width: 60%;
+    margin: auto;
+    justify-self: center;
 }
 
 .clean-link {
@@ -18,9 +61,24 @@ body {
     color: white;
 }
 
+.plum-link {
+    text-decoration: none;
+    color: plum;
+}
+
+.plum-link:hover {
+    text-decoration: underline;
+    color: plum;
+}
+
 .space-h {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.flex {
+    display: flex;
+    align-items:center;
 }
 
 .main-header {
@@ -45,6 +103,11 @@ body {
     display: flex;
 }
 
+.link-col {
+    color: plum;
+    text-decoration: none;
+}
+
 .align-h {
     display: flex;
     justify-content: center;
@@ -58,17 +121,27 @@ body {
 .main-pfp {
     border-radius: 50%;
     border: 2px solid white;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 17%;
+    max-height: 17%;
 }
 
 .fs-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: var(--fs-1) !important;
 }
 .fs-2 {
-    font-size: calc(1.275rem + 1.25vw) !important;
+    font-size: var(--fs-2) !important;
 }
 .fs-3 {
-    font-size: calc(1.175rem + 1.125vw) !important;
+    font-size: var(--fs-3) !important;
 }
 .fs-4 {
-    font-size: calc(1rem + 1.05vw) !important;
+    font-size: var(--fs-4) !important;
+}
+.fs-5 {
+    font-size: var(--fs-5) !important;
+}
+.fs-6 {
+    font-size: var(--fs-6) !important;
 }
