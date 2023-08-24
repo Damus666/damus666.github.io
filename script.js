@@ -6,12 +6,12 @@ const headContent = /*html*/`
 <title>Damus666</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Damus666/damus666.github.io/main/style.css"/>`
+<link rel="stylesheet" href="https://damus666.github.io/style.css"/>`
 
 const headerContent = /*html*/`
 <header class="main-header fs-2">
     <div class="align-h" style="width:80%;">
-        <img class="main-pfp" src="https://raw.githubusercontent.com/Damus666/damus666.github.io/main/assets/mainpfp.jpg" width="17%", height="17%">
+        <img class="main-pfp" src="https://damus666.github.io/mainpfp.jpg" width="17%", height="17%">
         <h1><a class="clean-link" href="https://linktr.ee/damus666"  target="_blank" id="#title">Damus666</a></h1>  
     </div>
 </header>
