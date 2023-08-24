@@ -49,6 +49,8 @@ body {
     width: 60%;
     margin: auto;
     justify-self: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .clean-link {
@@ -144,4 +146,14 @@ body {
 }
 .fs-6 {
     font-size: var(--fs-6) !important;
+}
+
+.spoiler-button {
+    background-color: black;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 10px;
+    border: 1px dashed gray;
+    color: white;
+    font-size: var(--fs-6);
 }

@@ -1,6 +1,4 @@
-console.log("i managed to run!")
- 
-const headContent = /*html*/`
+ const headContent = /*html*/`
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Damus666</title>
@@ -35,21 +33,15 @@ const footerContent = /*html*/`
 </div>
 `
 
-console.log("i managed to run the html consts!")
-
 document.getElementById("#head-cp").innerHTML = headContent
 document.getElementById("#header-cp").innerHTML = headerContent
 document.getElementById("#footer-cp").innerHTML = footerContent
-
-console.log("i managed to run the get element by id!")
 
 const url = document.URL
 titleElement = document.getElementById("#title")
 const baseDocTitle = "Damus666"
 const baseTitle = "Damus666"
 const pageNames = ["Games","Projects","About"]
-
-console.log("i managed to run after the consts!")
 
 pageNames.forEach((page)=>{
     if (url.includes(page.toLowerCase())) {
@@ -58,6 +50,6 @@ pageNames.forEach((page)=>{
     }
 })
 
-console.log("i managed to run all the code!")
-
-
+function unspoiler() {
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")
+}
