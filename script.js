@@ -4,8 +4,9 @@
 <title>Damus666</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css"/>`
+<link rel="stylesheet" href="https://damus666.github.io/style.css"/>`
      
+
 const headerContent = /*html*/`
 <header class="main-header fs-2">
     <div class="align-h" style="width:80%;">
@@ -24,6 +25,7 @@ const headerContent = /*html*/`
         <a class="clean-link fs-4 space-h" href="https://damus666.github.io/about">About</a>
     </div>
 </div>` 
+
 
 
 const footerContent = /*html*/`
