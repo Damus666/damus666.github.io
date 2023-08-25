@@ -1,6 +1,8 @@
 :root {
-    --main-gradiend: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(21,0,36,1) 100%);
-    --content-gradient: linear-gradient(90deg, rgba(11,0,20,1) 0%, rgba(42,3,60,1) 50%, rgba(11,0,20,1) 100%);  
+    --main-gradiend: linear-gradient(24deg, rgba(21,0,36,1) 0%, rgba(114,9,121,1) 100%);
+    --content-gradient: linear-gradient(90deg, rgba(11,0,20,1) 0%, rgba(42,3,60,1) 100%);
+    --main-col : rgba(114,9,121,1);
+    --content-col : rgba(21,0,36,1);
     --fs-1: calc(1.375rem + 1.5vw);
     --fs-2: calc(1.275rem + 1.25vw);
     --fs-3: calc(1.175rem + 1.125vw);
@@ -8,6 +10,10 @@
     --fs-5: calc(0.8rem + 1.0vw);
     --fs-6: calc(0.6rem + 0.9vw);
 }
+
+
+/*linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(114,9,121,1) 50%, rgba(21,0,36,1) 100%)*/
+/*linear-gradient(90deg, rgba(11,0,20,1) 0%, rgba(42,3,60,1) 50%, rgba(11,0,20,1) 100%)*/
 
 body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -107,6 +113,11 @@ body {
     align-items:center;
     justify-content:center;
     display: flex;
+    max-width: 100%;
+}
+
+.inner-nav {
+    max-width: 95%;
 }
 
 .link-col {
@@ -131,8 +142,8 @@ body {
     border: 2px solid white;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    max-width: 17%;
-    max-height: 17%;
+    max-width: 10rem;
+    max-height: 10rem;
 }
 
 .fs-1 {
@@ -163,3 +174,23 @@ body {
     color: white;
     font-size: var(--fs-6);
 }
+
+@media only screen and (max-width: 1000px) {
+    .inner-content  {
+        width: 80%;
+    }
+
+    .spoiler-button {
+        width: 90%;;
+    }
+
+    .space-h {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .main-pfp {
+        max-width: 17%;
+        max-height: 17%;
+    }
+  }

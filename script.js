@@ -4,17 +4,17 @@
 <title>Damus666</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://damus666.github.io/style.css"/>`
-   
+<link rel="stylesheet" href="style.css"/>`
+     
 const headerContent = /*html*/`
 <header class="main-header fs-2">
     <div class="align-h" style="width:80%;">
-        <img class="main-pfp" src="https://damus666.github.io/mainpfp.jpg"  width="17%", height="17%">
+        <img class="main-pfp" src="https://damus666.github.io/mainpfp.jpg">
         <h1><a class="clean-link" href="https://linktr.ee/damus666"  target="_blank" id="#title">Damus666</a></h1>  
     </div> 
 </header> 
 <div class="navigation">
-    <div class="align-h align-self-v">
+    <div class="align-h align-self-v inner-nav">
         <a class="clean-link fs-4 space-h" href="https://damus666.github.io">Home</a>
         <p class="fs-4">|</p>
         <a class="clean-link fs-4 space-h" href="https://damus666.github.io/games">Games</a>
@@ -25,9 +25,10 @@ const headerContent = /*html*/`
     </div>
 </div>` 
 
+
 const footerContent = /*html*/`
 <div class="navigation">
-    <div class="align-h align-self-v">
+    <div class="align-h align-self-v inner-nav">
         <p class="p">This site was possible thanks to <a class="link-col"  target="_blank" href="https://pages.github.com">Github Pages</a></p>
     </div>
 
